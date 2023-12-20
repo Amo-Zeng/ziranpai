@@ -1,5 +1,6 @@
 # 自然派语法汇总
-
+# 更新2023.12.20
+更新了协议。更新了dist文件夹，现在不是编译而是加密，所以只需要下载dist就可以通过：python dist/自然派 来运行自然派了，应该所有的python3都可以运行，而不需要下载之前那一堆依赖了。还加了点函数，之后有空再说，主要是为了和派对(https://github.com/Amo-Zeng/paidui )一起发布。
 # 自然派介绍：
 自然派是一种中文编程语言。它类似于Lisp，但是没有烦多的括号。（ziranpai is a Chinese programming language, which is similar to Lisp but without the cumbersome brackets.）
 具体的前世今生参见（http://114.67.237.166/ziranpai.html ）
