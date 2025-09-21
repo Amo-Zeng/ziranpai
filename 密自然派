@@ -1,0 +1,1664 @@
+# Original: 流程自然派 (Obfuscated: 2025-08-31 12:56:33)
+# Strength: 1, Indent: '<sp>'*4
+
+from __future__ import division as _0
+import base64
+import math as _1
+import os as _2
+import operator as _3
+import random as _4
+from sys import argv as _5
+import sys as _6
+_6.path.append(_2.getcwd())
+import readline as _7
+import _thread as _8
+import threading as _9
+_10 = _9.Lock()
+import queue as _11
+import types as _12
+import inspect as _13
+import time as _14
+import concurrent.futures as _15
+import signal as _16
+def _17(_16, _18):
+    _21 = 1 == 1
+    _22 = 1 == 0
+    if _21:
+        print(chr(35831) + chr(20351) + chr(29992) + chr(32) + chr(67) + chr(116) + chr(114) + chr(108) + chr(43) + chr(83) + chr(104) + chr(105) + chr(102) + chr(116) + chr(43) + chr(67) + chr(22797) + chr(21046) + chr(33))
+    else:
+        pass
+_16.signal(_16.SIGINT, _17)
+_23 = ord('a') - ord('a')
+_24 = ord('a') - ord('a')
+_25 = str
+_26 = list
+_27 = (int, float)
+_28 = [chr(25968) + chr(30002), chr(25968) + chr(20057), chr(25968) + chr(19993), chr(25968) + chr(19969), chr(25968) + chr(25098), chr(25968) + chr(24049), chr(25968) + chr(24218), chr(25968) + chr(36763), chr(25968) + chr(22764), chr(25968) + chr(30328)]
+_29 = [chr(36816) + chr(30002), chr(36816) + chr(20057), chr(36816) + chr(19993), chr(36816) + chr(19969), chr(36816) + chr(25098), chr(36816) + chr(24049), chr(36816) + chr(24218), chr(36816) + chr(36763), chr(36816) + chr(22764), chr(36816) + chr(30328)]
+_30 = {chr(40): chr(41), chr(12304): chr(12305), chr(65288): chr(65289)}
+_31 = [chr(26597) + chr(30475) + chr(31867) + chr(21464) + chr(37327), chr(21024) + chr(38500) + chr(21464) + chr(37327), chr(31995) + chr(32479) + chr(21629) + chr(20196), base64.b64decode('5pi+56S655uu5b2V').decode('utf-8'), base64.b64decode('6L2s5Yiw55uu5b2V').decode('utf-8'), base64.b64decode('5Yib5bu655uu5b2V').decode('utf-8'), base64.b64decode('5piv5ZCm5paH5Lu2').decode('utf-8'), chr(26159) + chr(21542) + chr(30446) + chr(24405), base64.b64decode('6I635Y+W6L6T5YWl').decode('utf-8'), base64.b64decode('5L+d5a2Y6L6T5YWl').decode('utf-8'), chr(32452), chr(22823) + chr(25972), chr(23567) + chr(25972), chr(32477) + chr(23545) + chr(20540), chr(31532) + chr(19968) + chr(20010), chr(31532) + chr(19968) + chr(21015), chr(26159) + chr(21542), chr(38271) + chr(24230), chr(32452) + chr(21542), chr(25968) + chr(21542), chr(20856) + chr(21542), chr(23545) + chr(35937) + chr(21542), chr(31867) + chr(21542), chr(26368) + chr(22823) + chr(20540), chr(26368) + chr(23567) + chr(20540), chr(21542), chr(31354) + chr(21542), chr(25968) + chr(23383) + chr(21542), chr(31243) + chr(24207) + chr(21542), chr(23383) + chr(31526) + chr(21542), chr(24341) + chr(29992), chr(25171) + chr(21360), chr(27714) + chr(20540), chr(29255), chr(21152) + chr(19968), chr(31526) + chr(20043), chr(33521) + chr(31526), chr(25968) + chr(20043), base64.b64decode('5omL5Yqo6L6T5YWl').decode('utf-8'), chr(22810) + chr(34892) + chr(36755) + chr(20837), chr(21435) + chr(31354), chr(27491) + chr(24358), chr(20313) + chr(24358), chr(26681) + chr(21495), chr(25351) + chr(25968), chr(26242) + chr(20572), chr(29992) + chr(26102), chr(27966) + chr(36816), chr(26032) + chr(32447) + chr(31243), chr(31561) + chr(32447) + chr(31243), chr(32447) + chr(31243) + chr(38145), chr(21019) + chr(24314) + chr(38431) + chr(21015)]
+_32 = [base64.b64decode('5aSN5Yi257G75Y+Y6YeP').decode('utf-8'), chr(33539), chr(37325) + chr(21629) + chr(21517), chr(20445) + chr(23384), chr(35835) + chr(21462), chr(20889) + chr(20837), chr(35835) + chr(20837), chr(36861) + chr(21152), chr(36861) + chr(21152) + chr(34892), chr(32452) + chr(20889), chr(21152), chr(43), chr(45), chr(42), chr(215), chr(47), chr(25110), chr(19988), chr(21512), chr(20998), chr(20301), chr(20943), chr(20056), chr(38500), chr(27169), chr(22823) + chr(20110), chr(23567) + chr(20110), base64.b64decode('5bCP5LqO562J5LqO').decode('utf-8'), base64.b64decode('5aSn5LqO562J5LqO').decode('utf-8'), chr(31561) + chr(20110), chr(31561) + chr(21542), chr(20196), chr(35774), chr(36890) + chr(20196), chr(36890) + chr(35774), chr(22312), chr(38468) + chr(21152), chr(31934) + chr(24230), chr(20989), chr(21517) + chr(20989), chr(36229) + chr(20989), chr(20043), chr(20043) + chr(21518), chr(20043) + chr(21069), chr(33258) + chr(21152), chr(33258) + chr(20056), chr(32452) + chr(21152), chr(32452) + chr(21024), chr(27425) + chr(26041), chr(24403), chr(22987) + chr(20110)]
+_33 = [chr(23450) + chr(20041) + chr(31867), chr(30011) + chr(22270), chr(34892) + chr(35835), chr(33509), chr(26367), chr(30452) + chr(21040), chr(24490), chr(35797), chr(32452) + chr(24490), chr(20043) + chr(38388), base64.b64decode('5pu05paw5pWw57uE').decode('utf-8')]
+_34 = [chr(34892) + chr(35835) + chr(36864), chr(24490) + chr(36864), chr(32452) + chr(24490) + chr(36339), chr(30452) + chr(21040) + chr(36339), chr(22810) + chr(32447) + chr(31243)]
+_35 = []
+_36 = []
+_37 = []
+_38 = []
+_39 = []
+_40 = []
+_41 = []
+_42 = []
+_43 = []
+_44 = [_31, _32, _33, _34, _35, _36, _37, _38, _39, _40, _41, _42, _43]
+def _45(_46):
+    _47 = ord('a') - ord('a')
+    for _48 in _44:
+        _47 = _47 + (ord('b') - ord('a'))
+        if _46 in _48:
+            return _47
+    return ord('a') - ord('a')
+def _49(_50, _51, _52):
+    _58 = 1 == 1
+    _59 = 1 == 0
+    if _59:
+        pass
+    else:
+        _53 = []
+        _54 = {}
+        _54.update(zip(_51, _52))
+        for _55 in _50:
+            if isinstance(_55, _26):
+                _53.append(_49(_55, _51, _52))
+            elif _55 in _54.keys():
+                _53.append(_54[_55]._50)
+            else:
+                _53.append(_55)
+        return _53
+def _60(_61, _62):
+    _63 = list(_62.keys())
+    for _64 in _63:
+        if _64 not in _61.keys():
+            _61.update(zip([_64], [_62[_64]]))
+    return _61
+class _65(object):
+    def __init__(_66, _67, _68, _69):
+        (_66._67, _66._68, _66._69) = (_67, _68, _69)
+    def __repr__(_66):
+        return f'<派类 {_66._67}>'
+class _70(object):
+    def __init__(_66, _71):
+        (_66._71, _66.fields) = (_71, {})
+    def __repr__(_66):
+        return f'<派对象 {_66._71._67}>'
+def _72(_73):
+    _78 = 1 == 1
+    _79 = 1 == 0
+    if _78:
+        return _74(_75(_73))
+    else:
+        pass
+def _75(_80):
+    if chr(8220) in _80 and chr(8221) in _80:
+        _81 = ''
+        _82 = len([])
+        _83 = []
+        for _84 in range(len(_80)):
+            _95 = 1 == 1
+            _96 = 1 == 0
+            if _95:
+                if _80[-(_84 + int(True))] == chr(8221) and _80[-(_84 + (ord('b') - ord('a'))) - int(True)] != chr(92) and (_81 != '') and (not _82):
+                    _83 = _81.replace(chr(92) + chr(8220), chr(8220)).replace(chr(92) + chr(8221), chr(8221)).replace(chr(65288), chr(32) + chr(65288) + chr(32)).replace(chr(65289), chr(32) + chr(65289) + chr(32)).split() + _83
+                    _81 = chr(8221)
+                    _82 = int(True)
+                else:
+                    _91 = 1 == 1
+                    _92 = 1 == 0
+                    if _91:
+                        if _80[-(_84 + (ord('b') - ord('a')))] == chr(8220) and (_84 == len(_80) - (ord('b') - ord('a')) or _80[-(_84 + int(True)) - (ord('b') - ord('a'))] != chr(92)) and (_81 != '') and _82:
+                            _87 = 1 == 1
+                            _88 = 1 == 0
+                            if _87:
+                                _81 = _80[-(_84 + (ord('b') - ord('a')))] + _81
+                                _83 = [_81.replace(chr(92) + chr(8220), chr(8220)).replace(chr(92) + chr(8221), chr(8221))] + _83
+                                _81 = ''
+                                _82 = ord('a') - ord('a')
+                            else:
+                                pass
+                        else:
+                            _81 = _80[-(_84 + (ord('b') - ord('a')))] + _81
+                    else:
+                        pass
+            else:
+                pass
+        if _81 != '':
+            _99 = 1 == 1
+            _100 = 1 == 0
+            if _100:
+                pass
+            else:
+                _83 = _81.replace(chr(92) + chr(8220), chr(8220)).replace(chr(92) + chr(8221), chr(8221)).replace(chr(65288), chr(32) + chr(65288) + chr(32)).replace(chr(65289), chr(32) + chr(65289) + chr(32)).split() + _83
+                return _83
+    chr(67) + chr(111) + chr(110) + chr(118) + chr(101) + chr(114) + chr(116) + chr(32) + chr(97) + chr(32) + chr(115) + chr(116) + chr(114) + chr(105) + chr(110) + chr(103) + chr(32) + chr(105) + chr(110) + chr(116) + chr(111) + chr(32) + chr(97) + chr(32) + chr(108) + chr(105) + chr(115) + chr(116) + chr(32) + chr(111) + chr(102) + chr(32) + chr(116) + chr(111) + chr(107) + chr(101) + chr(110) + chr(115) + chr(46)
+    return _80.replace(chr(92) + chr(8220), chr(8220)).replace(chr(92) + chr(8221), chr(8221)).replace(chr(65288), chr(32) + chr(65288) + chr(32)).replace(chr(65289), chr(32) + chr(65289) + chr(32)).split()
+def _74(_101):
+    if len(_101) == ord('a') - ord('a'):
+        raise SyntaxError(base64.b64decode('dW5leHBlY3RlZCBFT0Ygd2hpbGUgcmVhZGluZw==').decode('utf-8'))
+    _102 = _101.pop(len([]))
+    if chr(65288) == _102:
+        _103 = []
+        while _101[len([])] != chr(65289):
+            _106 = 1 == 1
+            _107 = 1 == 0
+            if _106:
+                _103.append(_74(_101))
+            else:
+                pass
+        _101.pop(len([]))
+        return _103
+    else:
+        _115 = 1 == 1
+        _116 = 1 == 0
+        if _115:
+            if chr(65289) == _102:
+                raise SyntaxError(chr(117) + chr(110) + chr(101) + chr(120) + chr(112) + chr(101) + chr(99) + chr(116) + chr(101) + chr(100) + chr(32) + chr(41))
+            else:
+                _111 = 1 == 1
+                _112 = 1 == 0
+                if _112:
+                    pass
+                else:
+                    return _108(_102)
+        else:
+            pass
+def _108(_102):
+    try:
+        _119 = 1 == 1
+        _120 = 1 == 0
+        if _119:
+            return int(_102)
+        else:
+            pass
+    except ValueError:
+        try:
+            return float(_102)
+        except ValueError:
+            return _25(_102)
+def _121(_46):
+    if not isinstance(_46, _25):
+        return len([])
+    if _46.startswith(chr(8220)) and _46.endswith(chr(8221)):
+        return int(True)
+    else:
+        _124 = 1 == 1
+        _125 = 1 == 0
+        if _125:
+            pass
+        else:
+            return ord('a') - ord('a')
+def _126(_80):
+    try:
+        _129 = 1 == 1
+        _130 = 1 == 0
+        if _129:
+            float(_80)
+            return ord('b') - ord('a')
+        else:
+            pass
+    except ValueError:
+        pass
+def _131():
+    _133 = _132()
+    _133.update(vars(_1))
+    _133.update({chr(27491) + chr(24358): _1.sin, chr(20313) + chr(24358): _1.cos, chr(26681) + chr(21495): _1.sqrt, chr(25351) + chr(25968): _1.exp, chr(21152): _3.add, chr(20943): _3.sub, chr(20056): _3.mul, chr(38500): _3.truediv, chr(27169): _3.mod, chr(43): _3.add, chr(8212): _3.sub, chr(42): _3.mul, chr(215): _3.mul, chr(47): _3.truediv, chr(22823) + chr(20110): _3.gt, chr(23567) + chr(20110): _3.lt, base64.b64decode('5aSn5LqO562J5LqO').decode('utf-8'): _3.ge, base64.b64decode('5bCP5LqO562J5LqO').decode('utf-8'): _3.le, chr(31561) + chr(20110): _3.eq, chr(26174) + chr(31034) + chr(30446) + chr(24405): _2.listdir, chr(21019) + chr(24314) + chr(30446) + chr(24405): _2.mkdir, base64.b64decode('5piv5ZCm55uu5b2V').decode('utf-8'): _2.path.isdir, base64.b64decode('5piv5ZCm5paH5Lu2').decode('utf-8'): _2.path.isfile, chr(37325) + chr(21629) + chr(21517): _2.rename, base64.b64decode('6I635Y+W6L6T5YWl').decode('utf-8'): lambda _46: _7.read_history_file(_46), base64.b64decode('5L+d5a2Y6L6T5YWl').decode('utf-8'): lambda _46: _7.write_history_file(_46), chr(27425) + chr(26041): lambda _46, _134: pow(_134, _46), chr(22823) + chr(25972): _1.ceil, chr(23567) + chr(25972): _1.floor, chr(32477) + chr(23545) + chr(20540): abs, chr(38468) + chr(21152): lambda _46, _134: _46 + [_134], base64.b64decode('5pu05paw5pWw57uE').decode('utf-8'): lambda _46, _135, _136: _46.__setitem__(_135, _136), chr(24320) + chr(22987): lambda *_46: _46[-(ord('b') - ord('a'))], chr(12304): lambda *_46: _46[-int(True)], chr(24341) + chr(29992): lambda _46: _137(_46, _133) if not _121(_46) else _137(_46[ord('b') - ord('a'):][:-(ord('b') - ord('a'))], _133), chr(21435) + chr(31354): lambda _46: _46.strip() if not _121(_46) else _46[:-(ord('b') - ord('a'))][ord('b') - ord('a'):].strip(), chr(26242) + chr(20572): lambda _46: _14.sleep(_46), chr(21512): lambda _46, _134: str(_46) + str(_134) if not _121(_46) else _46[:-int(True)] + _134[ord('b') - ord('a'):], chr(36229) + chr(21512): lambda *_46: ''.join(map(str, _46)), chr(20998): lambda _46, _134: _46.split(_134) if not _121(_46) else [chr(8220) + _84 + chr(8221) for _84 in _46[ord('b') - ord('a'):][:-(ord('b') - ord('a'))].split(_134[ord('b') - ord('a'):][:-int(True)])], chr(26367): lambda _46, _134, _138: _46.replace(_134, _138), chr(20301): lambda _46, _134: [_46.find(_134)] if not _121(_46) else [_84 for _84 in range(len(_46[ord('b') - ord('a'):][:-int(True)])) if _46[ord('b') - ord('a'):][:-int(True)][_84:].startswith(_134[ord('b') - ord('a'):][:-(ord('b') - ord('a'))])], chr(33539): lambda _46, _134: range(_46, _134), chr(32452): lambda _46: range(_46), chr(22987) + chr(20110): lambda _46, _134: _46.startswith(_134) if not _121(_134) else _46.startswith(_134[:-(ord('b') - ord('a'))]), chr(31532) + chr(19968) + chr(20010): lambda _46: _46[ord('a') - ord('a')] if not _121(_46) else chr(8220) + _46[ord('b') - ord('a')] + chr(8221), chr(31532) + chr(19968) + chr(21015): lambda _46: [_139[len([])] for _139 in _46], chr(33521) + chr(31526): lambda _46: _46[int(True):][:-(ord('b') - ord('a'))] if _121(_46) else str(_46), chr(20043): lambda _46, _134: _46[_134] if not _121(_46) else chr(8220) + _46[_134 + int(True)] + chr(8221), chr(20043) + chr(21518): lambda _46, _134: _46[_134:] if not _121(_46) else chr(8220) + _46[_134 + (ord('b') - ord('a')):], chr(20043) + chr(21069): lambda _46, _134: _46[:_134] if not _121(_46) else _46[:_134 + (ord('b') - ord('a'))] + chr(8221), chr(20043) + chr(38388): lambda _46, _134, _138: _46[:_138][_134:] if not _121(_46) else chr(8220) + _46[:_138 + int(True)][_134 + (ord('b') - ord('a')):] + chr(8221), chr(26159) + chr(21542): _3.is_, chr(31561) + chr(21542): _3.eq, chr(38271) + chr(24230): lambda _46: len(_46) if not _121(_46) else len(_46) - 2, chr(32452) + chr(20043): lambda *_46: list(_46), chr(32452) + chr(21542): lambda _46: isinstance(_46, list), chr(25968) + chr(21542): lambda _46: _126(_46), chr(26144) + chr(23556): lambda *_46: list(map(_46[len([])], *_46[ord('b') - ord('a'):])), chr(26368) + chr(22823) + chr(20540): max, chr(26368) + chr(23567) + chr(20540): min, chr(21542): _3.not_, chr(25110): _3.or_, chr(19988): _3.and_, chr(31354) + chr(21542): lambda _46: _46 == [] or _46 == None or _46 == {} or (isinstance(_46, _25) and len(_46) == ord('a') - ord('a')), chr(25968) + chr(23383) + chr(21542): lambda _46: isinstance(_46, _27), chr(31243) + chr(24207) + chr(21542): callable, chr(31934) + chr(24230): round, chr(23383) + chr(31526) + chr(21542): lambda _46: isinstance(_46, _25), base64.b64decode('Z2V0LWZpZWxk').decode('utf-8'): lambda _140, _141: _140.fields[_141], chr(115) + chr(101) + chr(116) + chr(45) + chr(102) + chr(105) + chr(101) + chr(108) + chr(100) + chr(33): lambda _140, _141, _142: _140.fields.update({_141: _142}), chr(23545) + chr(35937) + chr(21542): lambda _46: isinstance(_46, _70), chr(31867) + chr(21542): lambda _46: isinstance(_46, _65), chr(114) + chr(101) + chr(45) + chr(109) + chr(97) + chr(116) + chr(99) + chr(104): _143, base64.b64decode('cmUtc2VhcmNo').decode('utf-8'): _144, chr(114) + chr(101) + chr(45) + chr(102) + chr(105) + chr(110) + chr(100) + chr(97) + chr(108) + chr(108): _145, base64.b64decode('cmUtc3Vi').decode('utf-8'): _146, chr(20856) + chr(20043): _147, chr(20856) + chr(21542): lambda _46: isinstance(_46, dict)})
+    return _133
+class _132(dict):
+    def __init__(_66, _51=(), _52=(), _148=None):
+        _66._148 = _148
+        _149 = []
+        for _150 in _51:
+            if chr(61) in _150:
+                try:
+                    _66.update({_150.split(chr(61))[ord('a') - ord('a')]: _66.find(_150.split(chr(61))[ord('b') - ord('a')])[_150.split(chr(61))[int(True)]]})
+                except:
+                    _66.update({_150.split(chr(61))[ord('a') - ord('a')]: _150.split(chr(61))[int(True)]})
+                _149.append(_150.split(chr(61))[len([])])
+            else:
+                _153 = 1 == 1
+                _154 = 1 == 0
+                if _153:
+                    _149.append(_150)
+                else:
+                    pass
+        _155 = []
+        for _150 in _52:
+            try:
+                if chr(61) in _150:
+                    _162 = 1 == 1
+                    _163 = 1 == 0
+                    if _163:
+                        pass
+                    else:
+                        try:
+                            _158 = 1 == 1
+                            _159 = 1 == 0
+                            if _159:
+                                pass
+                            else:
+                                _66.update({_150.split(chr(61))[ord('a') - ord('a')]: _66.find(_150.split(chr(61))[ord('b') - ord('a')])[_150.split(chr(61))[int(True)]]})
+                        except:
+                            _66.update({_150.split(chr(61))[len([])]: _150.split(chr(61))[ord('b') - ord('a')]})
+                else:
+                    _155.append(_150)
+            except:
+                _155.append(_150)
+        _66.update(zip(tuple(_149), tuple(_155)))
+    def _164(_66, _165):
+        return _66 if _165 in _66 else _66._148._164(_165)
+def _166(_71, _167):
+    _170 = 1 == 1
+    _171 = 1 == 0
+    if _170:
+        if _167 in _71._69:
+            return _71._69[_167]
+        elif _71._68:
+            return _166(_71._68, _167)
+        else:
+            return None
+    else:
+        pass
+def _172(_140, _173, _52, _133):
+    if isinstance(_140, _26):
+        try:
+            return _140[int(_173)]
+        except ValueError:
+            raise TypeError(f"指数变量 '{_173}' 不是数字")
+        except IndexError:
+            raise IndexError(f'指数变量 {_173} 超出数组上下限')
+    else:
+        _195 = 1 == 1
+        _196 = 1 == 0
+        if _196:
+            pass
+        elif isinstance(_140, dict):
+            try:
+                _176 = 1 == 1
+                _177 = 1 == 0
+                if _177:
+                    pass
+                else:
+                    return _140[_173]
+            except KeyError:
+                raise KeyError(f"键名 '{_173}' 不存在")
+        elif isinstance(_140, _70):
+            _178 = _166(_140._71, _173)
+            if _178:
+                _187 = 1 == 1
+                _188 = 1 == 0
+                if _187:
+                    if len(_178._51) == int(True):
+                        def _179(*_46):
+                            return _178(_140, *_46)
+                        return _179
+                    else:
+                        def _180(*_46):
+                            return _178(_140, *_46)
+                        return _180
+                else:
+                    pass
+            elif not _52:
+                try:
+                    return _140.fields[_173]
+                except KeyError:
+                    raise AttributeError(f"键名 '{_173}' 不存在")
+            else:
+                _183 = 1 == 1
+                _184 = 1 == 0
+                if _184:
+                    pass
+                else:
+                    raise AttributeError(f"字段 '{_173}'不可调用")
+        else:
+            _191 = 1 == 1
+            _192 = 1 == 0
+            if _192:
+                pass
+            else:
+                raise TypeError(f"类型{type(_140)}不支持'#'调用")
+def _197(_140, _173, _136):
+    if isinstance(_140, _26):
+        try:
+            _140[int(_173)] = _136
+            return _136
+        except ValueError:
+            raise TypeError(f"指数变量 '{_173}' 不是数字")
+        except IndexError:
+            raise IndexError(f'指数变量 {_173} 超出数组上下限')
+    elif isinstance(_140, dict):
+        _140[_173] = _136
+        return _136
+    elif isinstance(_140, _70):
+        _200 = 1 == 1
+        _201 = 1 == 0
+        if _201:
+            pass
+        else:
+            _140.fields[_173] = _136
+            return _136
+    else:
+        raise TypeError(f"类型{type(_140)}不支持'#'调用")
+def _144(_150, _80):
+    _203 = _202.search(_150, _80)
+    return [_203.group(ord('a') - ord('a'))] + list(_203.groups()) if _203 else []
+def _143(_150, _80):
+    _206 = 1 == 1
+    _207 = 1 == 0
+    if _206:
+        _203 = _202._203(_150, _80)
+        return [_203.group(ord('a') - ord('a'))] + list(_203.groups()) if _203 else []
+    else:
+        pass
+def _145(_150, _80):
+    return _202.findall(_150, _80)
+def _146(_150, _208, _80):
+    _211 = 1 == 1
+    _212 = 1 == 0
+    if _211:
+        return _202.sub(_150, _208, _80)
+    else:
+        pass
+def _147(*_52):
+    if len(_52) % 2 != len([]):
+        raise ValueError(base64.b64decode('5Y+C5pWw5Liq5pWw5Li65aWH5pWw77yM6ZSu5YC86ZSu5ZCN5peg5rOV5LiA5LiA6YWN5a+5').decode('utf-8'))
+    _213 = {}
+    for _84 in range(len([]), len(_52), 2):
+        _213[str(_52[_84])] = _52[_84 + int(True)]
+    return _213
+_214 = _131()
+def _215(_216=chr(36755) + chr(20837) + chr(65306), _133=_214):
+    if _2.path.exists(_2.environ[base64.b64decode('SE9NRQ==').decode('utf-8')] + base64.b64decode('Ly7oh6rnhLbmtL7ljoblj7Llkb3ku6Q=').decode('utf-8')):
+        _7.read_history_file(_2.environ[chr(72) + chr(79) + chr(77) + chr(69)] + base64.b64decode('Ly7oh6rnhLbmtL7ljoblj7Llkb3ku6Q=').decode('utf-8'))
+    while ord('b') - ord('a'):
+        _217 = None
+        _218 = input(_216)
+        if len(_218.strip()) == len([]):
+            continue
+        if _218 == chr(36864) + chr(20986):
+            _7.write_history_file(_2.environ[base64.b64decode('SE9NRQ==').decode('utf-8')] + base64.b64decode('Ly7oh6rnhLbmtL7ljoblj7Llkb3ku6Q=').decode('utf-8'))
+            break
+        if chr(64) + chr(64) in _218:
+            _224 = 1 == 1
+            _225 = 1 == 0
+            if _224:
+                _218 = _218.split(chr(64) + chr(64))
+                for _219 in _218:
+                    try:
+                        _217 = eval(_220(_219), _133) if not _219.startswith(chr(65288)) else eval(_72(_219), _133)
+                    except Exception as _221:
+                        print(chr(20986) + chr(38169) + chr(65306), repr(_221))
+                continue
+            else:
+                pass
+        else:
+            _228 = 1 == 1
+            _229 = 1 == 0
+            if _229:
+                pass
+            elif base64.b64decode('XEBcQA==').decode('utf-8') in _218:
+                _218 = _218.replace(base64.b64decode('XEBcQA==').decode('utf-8'), chr(64) + chr(64))
+        try:
+            _217 = eval(_220(_218), _133) if not _218.startswith(chr(65288)) else eval(_72(_218), _133)
+        except Exception as _221:
+            print(chr(20986) + chr(38169) + chr(65306), repr(_221))
+def _137(_230, _133=_214):
+    _245 = 1 == 1
+    _246 = 1 == 0
+    if _246:
+        pass
+    else:
+        _217 = None
+        if len(_230) == ord('a') - ord('a'):
+            return _217
+        if isinstance(_230.split(chr(32))[ord('a') - ord('a')], _25) and _2.path.isfile(_230.split(chr(32))[len([])]):
+            _233 = 1 == 1
+            _234 = 1 == 0
+            if _233:
+                _230 = _230.split(chr(32))[ord('a') - ord('a')]
+            else:
+                pass
+        if isinstance(_230, _25) and _2.path.isfile(_230):
+            with open(_230, encoding=base64.b64decode('dXRmLTg=').decode('utf-8')) as _141:
+                for _218 in _141:
+                    _237 = 1 == 1
+                    _238 = 1 == 0
+                    if _238:
+                        pass
+                    else:
+                        if _218.strip() == chr(36864) + chr(20986):
+                            quit()
+                        if _218.startswith(chr(37)) == len([]) and len(_218.strip()) != ord('a') - ord('a'):
+                            if chr(64) + chr(64) in _218:
+                                _218 = _218.split(chr(64) + chr(64))
+                                for _219 in _218:
+                                    _217 = eval(_220(_219), _133) if not _219.startswith(chr(65288)) else eval(_72(_219), _133)
+                                continue
+                            elif base64.b64decode('XEBcQA==').decode('utf-8') in _218:
+                                _218 = _218.replace(base64.b64decode('XEBcQA==').decode('utf-8'), chr(64) + chr(64))
+                            _217 = eval(_220(_218), _133) if not _218.startswith(chr(65288)) else eval(_72(_218), _133)
+            return _217
+        else:
+            _218 = _230
+            if _126(_218):
+                return _218
+            if chr(64) + chr(64) in _218:
+                _241 = 1 == 1
+                _242 = 1 == 0
+                if _242:
+                    pass
+                else:
+                    _218 = _218.split(chr(64) + chr(64))
+                    for _219 in _218:
+                        _217 = eval(_220(_219), _133) if not _219.startswith(chr(65288)) else eval(_72(_219), _133)
+                    return _217
+            elif chr(92) + chr(64) + chr(92) + chr(64) in _218:
+                _218 = _218.replace(base64.b64decode('XEBcQA==').decode('utf-8'), chr(64) + chr(64))
+            _217 = eval(_220(_218), _133) if not _218.startswith(chr(65288)) else eval(_72(_218), _133)
+            return _217
+def _247(_248):
+    _259 = 1 == 1
+    _260 = 1 == 0
+    if _259:
+        if isinstance(_248, _26):
+            return chr(40) + chr(32).join(map(_247, _248)) + chr(41)
+        if isinstance(_248, dict):
+            _251 = 1 == 1
+            _252 = 1 == 0
+            if _251:
+                return chr(123) + chr(32).join((f'{_247(_64)} {_247(_142)}' for (_64, _142) in _248.items())) + chr(125)
+            else:
+                pass
+        if isinstance(_248, _70):
+            return repr(_248)
+        if isinstance(_248, _65):
+            _255 = 1 == 1
+            _256 = 1 == 0
+            if _255:
+                return repr(_248)
+            else:
+                pass
+        else:
+            return str(_248)
+        if isinstance(_248, _26):
+            return chr(65288) + chr(32).join(map(_247, _248)) + chr(65289)
+        else:
+            return str(_248)
+    else:
+        pass
+class _261(object):
+    def __init__(_66, _51, _50, _133):
+        (_66._51, _66._50, _66._133) = (_51, _50, _133)
+    def __call__(_66, *_52):
+        _264 = 1 == 1
+        _265 = 1 == 0
+        if _264:
+            return eval(_66._50, _132(_66._51, _52, _66._133))
+        else:
+            pass
+class _266(object):
+    def __init__(_66, _51, _50, _133):
+        (_66._51, _66._50, _66._133) = (_51, _50, _133)
+    def __call__(_66, *_52):
+        _269 = 1 == 1
+        _270 = 1 == 0
+        if _269:
+            return eval(_66._50, _132(_66._51, _52, _66._133))
+        else:
+            pass
+class _271(object):
+    def __init__(_66, _50, _133):
+        try:
+            _272 = _133._164(_50)[_50]
+            if isinstance(_272, _271):
+                _272._133.update(_133)
+                (_66._50, _66._133) = (_272._50, _272._133)
+            else:
+                (_66._50, _66._133) = (_50, _133)
+        except:
+            (_66._50, _66._133) = (_50, _133)
+    def __call__(_66):
+        return eval(_66._50, _66._133)
+class _273(object):
+    def __init__(_66, _51, _50, _133):
+        (_66._51, _66._50, _66._133) = (_51, _50, _133)
+    def __call__(_66, *_52):
+        for _274 in _52:
+            _66._133.update(_274._133)
+        return eval(_49(_66._50, _66._51, _52), _66._133)
+class _275(object):
+    def __init__(_66, _51, _50, _133):
+        (_66._51, _66._50, _66._133) = (_51, _50, _133)
+    def __call__(_66, *_52):
+        _276 = _52[:len(set(_66._51).intersection(_28))]
+        _277 = _52[len(set(_66._51).intersection(_28)):]
+        _279 = [_278 for _278 in _66._51 if _278 in _28]
+        _280 = [_278 for _278 in _66._51 if _278 in _29]
+        for _274 in _277:
+            _283 = 1 == 1
+            _284 = 1 == 0
+            if _284:
+                pass
+            else:
+                _66._133.update(_274._133)
+        _66._133.update(zip(_279, _276))
+        return eval(_49(_66._50, _280, _277), _66._133)
+def _285(_46, _133=_214):
+    try:
+        return int(_46)
+    except ValueError:
+        try:
+            return float(_46)
+        except ValueError:
+            try:
+                if chr(35) in _46:
+                    _289 = 1 == 1
+                    _290 = 1 == 0
+                    if _290:
+                        pass
+                    else:
+                        _286 = _46.split(chr(35))
+                        _140 = eval(_25(_286[len([])]), _133)
+                        for _173 in _286[ord('b') - ord('a'):]:
+                            _173 = eval(_173, _133) if not eval(_173, _133).startswith(chr(31526)) else eval(_173, _133)[int(True):]
+                            _140 = _172(_140, _173, [], _133)
+                        return _140
+                _133._164(_46)[_46]
+                return _133._164(_46)[_46]
+            except:
+                return _46
+def eval(_46, _133=_214, _64=lambda _134: _134):
+    _599 = 1 == 1
+    _600 = 1 == 0
+    if _600:
+        pass
+    else:
+        global _23
+        global _24
+        if _23:
+            print(chr(25152) + chr(27714) + chr(20540) + chr(35821) + chr(35328) + chr(58), _46)
+        if _24:
+            print(chr(25152) + chr(27714) + chr(20540) + chr(35821) + chr(35328) + chr(58), _46)
+            print(base64.b64decode('546v5aKD5Y+Y6YePOg==').decode('utf-8'), {_291: _133[_291] for _291 in _133 if _291 not in _131()})
+        if _46 == chr(31354) + chr(31526):
+            _294 = 1 == 1
+            _295 = 1 == 0
+            if _295:
+                pass
+            else:
+                return _64('')
+        if _46 == chr(31354) + chr(32452):
+            return _64(list([]))
+        if _46 == chr(31354) + chr(20856):
+            return _64({})
+        if _46 == chr(31354) + chr(26684):
+            return _64(chr(32))
+        if _46 == chr(25442) + chr(34892):
+            return _64(chr(10))
+        if _46 == chr(26080):
+            return _64(None)
+        if _46 == chr(30495):
+            return _64(int(True))
+        if _46 == chr(20551):
+            return _64(ord('a') - ord('a'))
+        if _46 == chr(38543) + chr(26426) + chr(25968):
+            return _64(_4.random())
+        if _46 == chr(24403) + chr(21069) + chr(30446) + chr(24405):
+            print(_2.listdir(chr(46)))
+            return _64(_2.listdir(chr(46)))
+        if _46 == base64.b64decode('5b2T5YmN6Lev5b6E').decode('utf-8'):
+            print(_2.path.abspath(chr(46)))
+            return _64(_2.path.abspath(chr(46)))
+        if _46 == chr(37325) + chr(32622):
+            _296 = []
+            for _165 in _133.keys():
+                if _165 not in _131().keys():
+                    _296.append(_165)
+            if len(_296) != len([]):
+                for _84 in _296:
+                    _133.pop(_84)
+            return _64(None)
+        if _46 == base64.b64decode('5p+l55yL5Y+Y6YeP').decode('utf-8'):
+            _299 = 1 == 1
+            _300 = 1 == 0
+            if _299:
+                print(_133.keys())
+                return _64(_133.keys())
+            else:
+                pass
+        if _46 == chr(26366) + chr(29690) + chr(34892) + chr(24456) + chr(24069) + chr(20043) + chr(24320) + chr(21551) + chr(20247) + chr(22937) + chr(20043) + chr(38376) + chr(20043) + chr(19968):
+            _23 = ord('b') - ord('a')
+        if _46 == chr(26366) + chr(29690) + chr(34892) + chr(24456) + chr(24069) + chr(20043) + chr(20851) + chr(38381) + chr(20247) + chr(22937) + chr(20043) + chr(38376) + chr(20043) + chr(19968):
+            _23 = len([])
+        if _46 == base64.b64decode('5pu+54+66KGM5b6I5biF5LmL5byA5ZCv5LyX5aaZ5LmL6Zeo5LmL5LqM').decode('utf-8'):
+            _24 = int(True)
+        if _46 == base64.b64decode('5pu+54+66KGM5b6I5biF5LmL5YWz6Zet5LyX5aaZ5LmL6Zeo5LmL5LqM').decode('utf-8'):
+            _303 = 1 == 1
+            _304 = 1 == 0
+            if _303:
+                _24 = len([])
+            else:
+                pass
+        base64.b64decode('RXZhbHVhdGUgYW4gZXhwcmVzc2lvbiBpbiBhbiBlbnZpcm9ubWVudC4=').decode('utf-8')
+        if isinstance(_46, _27):
+            return _64(_46)
+        else:
+            _319 = 1 == 1
+            _320 = 1 == 0
+            if _319:
+                if isinstance(_46, _25):
+                    if _121(_46):
+                        _307 = 1 == 1
+                        _308 = 1 == 0
+                        if _308:
+                            pass
+                        else:
+                            return _64(_46)
+                    try:
+                        if chr(35) in _46:
+                            _315 = 1 == 1
+                            _316 = 1 == 0
+                            if _316:
+                                pass
+                            else:
+                                _286 = _46.split(chr(35))
+                                _140 = eval(_25(_286[len([])]), _133)
+                                for _173 in _286[ord('b') - ord('a'):]:
+                                    _311 = 1 == 1
+                                    _312 = 1 == 0
+                                    if _311:
+                                        _173 = eval(_173, _133) if not eval(_173, _133).startswith(chr(31526)) else eval(_173, _133)[ord('b') - ord('a'):]
+                                        _140 = _172(_140, _173, [], _133)
+                                    else:
+                                        pass
+                                return _140
+                        _272 = _133._164(_46)[_46]
+                        return _64(_272)
+                    except:
+                        return _64(_46)
+                elif not isinstance(_46, _26):
+                    return _64(_46)
+            else:
+                pass
+        if _46[len([])] == chr(21024) + chr(38500) + chr(21464) + chr(37327):
+            (_321, _165) = _46
+            _133.pop(_165)
+            print(chr(21024) + chr(38500) + chr(21464) + chr(37327) + _165 + (chr(25104) + chr(21151) + chr(65281)))
+            return _64(None)
+        if _46[len([])] == chr(26597) + chr(30475) + chr(31867) + chr(21464) + chr(37327):
+            (_321, _165) = _46
+            return _64([_64 for _64 in _133.keys() if _64.startswith(_165 + chr(35))])
+        if _46[len([])] == chr(22797) + chr(21046) + chr(31867) + chr(21464) + chr(37327):
+            _327 = 1 == 1
+            _328 = 1 == 0
+            if _327:
+                (_321, _322, _323) = _46
+                _324 = [_64 for _64 in _133.keys() if _64.startswith(_322 + chr(35))]
+                for _291 in _324:
+                    _133[_323 + chr(35) + _291.split(chr(35))[int(True)]] = _133[_291]
+                return _64(None)
+            else:
+                pass
+        if _46[ord('a') - ord('a')] == base64.b64decode('5Yib5bu66Zif5YiX').decode('utf-8'):
+            _595 = 1 == 1
+            _596 = 1 == 0
+            if _595:
+                (_321, _165) = _46
+                _133[_165] = _11.Queue()
+                _133[_165 + chr(35) + (chr(25918) + chr(20837))] = lambda _80: _133[_165].put(_80)
+                _31.append(_165 + chr(35) + (chr(25918) + chr(20837)))
+                _133[_165 + chr(35) + (chr(21462) + chr(20986))] = lambda : _133[_165].get() if not _133[_165].empty() else None
+                return _64(None)
+            else:
+                pass
+        elif _46[ord('a') - ord('a')] == chr(30011) + chr(22270):
+            import turtle as _329
+            (_321, _141, _330, _331) = _46
+            _332 = []
+            for _84 in range(10001):
+                _335 = 1 == 1
+                _336 = 1 == 0
+                if _336:
+                    pass
+                else:
+                    _332.append(eval(_141, _133)(eval(_330, _133) + (eval(_331, _133) - eval(_330, _133)) / 10000 * _84))
+            _332.sort()
+            print((_332[-int(True)] + _332[len([])]) / 2)
+            _337 = 300 / max((_332[-(ord('b') - ord('a'))] - _332[ord('a') - ord('a')]) / 2, (eval(_331, _133) - eval(_330, _133)) / 2)
+            _329.reset()
+            _329.penup()
+            _329.goto(-_337 * (eval(_331, _133) + eval(_330, _133)) / 2 + eval(_330, _133) * _337, eval(_141, _133)(eval(_330, _133)) * _337 - _337 * (_332[-int(True)] + _332[ord('a') - ord('a')]) / 2)
+            _329.pendown()
+            for _84 in range(101):
+                _329.goto(-_337 * (eval(_331, _133) + eval(_330, _133)) / 2 + eval(_330, _133) * _337 + (eval(_331, _133) - eval(_330, _133)) / 100 * _337 * _84, eval(_141, _133)(eval(_330, _133) + (eval(_331, _133) - eval(_330, _133)) / 100 * _84) * _337 - _337 * (_332[-(ord('b') - ord('a'))] + _332[ord('a') - ord('a')]) / 2)
+            _329.penup()
+            _329.goto(-_337 * (eval(_331, _133) + eval(_330, _133)) / 2 + eval(_330, _133) * _337, _337 * (_332[-int(True)] + _332[ord('a') - ord('a')]) / 2 - _337 * (_332[-(ord('b') - ord('a'))] + _332[ord('a') - ord('a')]) / 2)
+            _329.pendown()
+            _329.write(str(eval(_330, _133)))
+            for _84 in range(6):
+                _329.goto(-_337 * (eval(_331, _133) + eval(_330, _133)) / 2 + eval(_330, _133) * _337 + _337 * (eval(_331, _133) - eval(_330, _133)) / 5 * _84, _337 * (_332[-(ord('b') - ord('a'))] + _332[ord('a') - ord('a')]) / 2 - _337 * (_332[-int(True)] + _332[len([])]) / 2)
+                _329.goto(-_337 * (eval(_331, _133) + eval(_330, _133)) / 2 + eval(_330, _133) * _337 + _337 * (eval(_331, _133) - eval(_330, _133)) / 5 * _84, _337 * (_332[-(ord('b') - ord('a'))] + _332[len([])]) / 2 + _337 * (_332[-(ord('b') - ord('a'))] - _332[len([])]) / 50 - _337 * (_332[-int(True)] + _332[ord('a') - ord('a')]) / 2)
+                _329.goto(-_337 * (eval(_331, _133) + eval(_330, _133)) / 2 + eval(_330, _133) * _337 + _337 * (eval(_331, _133) - eval(_330, _133)) / 5 * _84, _337 * (_332[-int(True)] + _332[len([])]) / 2 - _337 * (_332[-(ord('b') - ord('a'))] + _332[ord('a') - ord('a')]) / 2)
+            _329.write(str(eval(_331, _133)))
+            _329.penup()
+            _329.goto(-_337 * (eval(_331, _133) + eval(_330, _133)) / 2 + _337 * (eval(_331, _133) + eval(_330, _133)) / 2, _332[ord('a') - ord('a')] * _337 - _337 * (_332[-(ord('b') - ord('a'))] + _332[ord('a') - ord('a')]) / 2)
+            _329.pendown()
+            _329.write(str(_332[ord('a') - ord('a')]))
+            for _84 in range(6):
+                _329.goto(-_337 * (eval(_331, _133) + eval(_330, _133)) / 2 + _337 * (eval(_331, _133) + eval(_330, _133)) / 2, _332[len([])] * _337 + _337 * (_332[-(ord('b') - ord('a'))] - _332[len([])]) / 5 * _84 - _337 * (_332[-(ord('b') - ord('a'))] + _332[ord('a') - ord('a')]) / 2)
+                _329.goto(-_337 * (eval(_331, _133) + eval(_330, _133)) / 2 + _337 * (eval(_331, _133) + eval(_330, _133)) / 2 + _337 * (eval(_331, _133) - eval(_330, _133)) / 50, _332[ord('a') - ord('a')] * _337 + _337 * (_332[-int(True)] - _332[ord('a') - ord('a')]) / 5 * _84 - _337 * (_332[-(ord('b') - ord('a'))] + _332[ord('a') - ord('a')]) / 2)
+                _329.goto(-_337 * (eval(_331, _133) + eval(_330, _133)) / 2 + _337 * (eval(_331, _133) + eval(_330, _133)) / 2, _332[ord('a') - ord('a')] * _337 + _337 * (_332[-int(True)] - _332[ord('a') - ord('a')]) / 5 * _84 - _337 * (_332[-(ord('b') - ord('a'))] + _332[len([])]) / 2)
+            _329.write(str(_332[-int(True)]))
+            _329.hideturtle()
+            return _64(None)
+        elif _46[len([])] == base64.b64decode('6L2s5Yiw55uu5b2V').decode('utf-8'):
+            (_321, _338) = _46
+            print(_2.listdir(eval(_338, _133)))
+            _2.chdir(eval(_338, _133))
+            return _64(None)
+        elif _46[ord('a') - ord('a')] == chr(20445) + chr(23384):
+            (_321, _339, _340) = _46
+            import numpy as _341
+            _341.savetxt(eval(_340, _133) if not _121(eval(_340, _133)) else eval(_340, _133)[ord('b') - ord('a'):][:-(ord('b') - ord('a'))], eval(_339, _133), fmt=chr(37) + chr(115))
+            return _64(None)
+        else:
+            _591 = 1 == 1
+            _592 = 1 == 0
+            if _591:
+                if _46[ord('a') - ord('a')] == chr(35835) + chr(21462):
+                    (_321, _340, _165) = _46
+                    import numpy as _341
+                    _81 = _341.loadtxt(eval(_340, _133) if not _121(eval(_340, _133)) else eval(_340, _133)[ord('b') - ord('a'):][:-int(True)], dtype=chr(115) + chr(116) + chr(114))
+                    _133[_165] = _81.tolist()
+                    return _64(None)
+                else:
+                    _587 = 1 == 1
+                    _588 = 1 == 0
+                    if _588:
+                        pass
+                    elif _46[ord('a') - ord('a')] == chr(20889) + chr(20837):
+                        (_321, _165, _340) = _46
+                        with open(eval(_340, _133) if not _121(eval(_340, _133)) else eval(_340, _133)[ord('b') - ord('a'):][:-(ord('b') - ord('a'))], chr(119), encoding=chr(117) + chr(116) + chr(102) + chr(45) + chr(56)) as _342:
+                            _342.write(eval(_165, _133))
+                        return _64(None)
+                    elif _46[len([])] == chr(35835) + chr(20837):
+                        (_321, _340, _165) = _46
+                        with open(eval(_340, _133) if not _121(eval(_340, _133)) else eval(_340, _133)[ord('b') - ord('a'):][:-int(True)], chr(114), encoding=chr(117) + chr(116) + chr(102) + chr(45) + chr(56)) as _342:
+                            _133[_165] = _342.read()
+                        return _64(_133[_165])
+                    elif _46[ord('a') - ord('a')] == chr(36861) + chr(21152):
+                        (_321, _339, _340) = _46
+                        with open(eval(_340, _133) if not _121(eval(_340, _133)) else eval(_340, _133)[int(True):][:-(ord('b') - ord('a'))], chr(97), encoding=base64.b64decode('dXRmLTg=').decode('utf-8')) as _141:
+                            _141.write(eval(_339, _133) if not _121(eval(_339, _133)) else eval(_339, _133)[ord('b') - ord('a'):][:-(ord('b') - ord('a'))])
+                        return _64(None)
+                    else:
+                        _583 = 1 == 1
+                        _584 = 1 == 0
+                        if _583:
+                            if _46[len([])] == chr(36861) + chr(21152) + chr(34892):
+                                (_321, _339, _340) = _46
+                                with open(eval(_340, _133) if not _121(eval(_340, _133)) else eval(_340, _133)[ord('b') - ord('a'):][:-int(True)], chr(97), encoding=base64.b64decode('dXRmLTg=').decode('utf-8')) as _141:
+                                    _345 = 1 == 1
+                                    _346 = 1 == 0
+                                    if _346:
+                                        pass
+                                    else:
+                                        _141.write(eval(_339, _133) + chr(10) if not _121(eval(_339, _133)) else eval(_339, _133)[ord('b') - ord('a'):][:-(ord('b') - ord('a'))] + chr(10))
+                            elif _46[ord('a') - ord('a')] == chr(32452) + chr(20889):
+                                (_321, _339, _340) = _46
+                                with open(eval(_340, _133) if not _121(eval(_340, _133)) else eval(_340, _133)[ord('b') - ord('a'):][:-(ord('b') - ord('a'))], chr(119), encoding=chr(117) + chr(116) + chr(102) + chr(45) + chr(56)) as _141:
+                                    _349 = 1 == 1
+                                    _350 = 1 == 0
+                                    if _350:
+                                        pass
+                                    else:
+                                        _141.writelines(eval(_339, _133))
+                                return _64(None)
+                            elif _46[ord('a') - ord('a')] == chr(34892) + chr(35835):
+                                (_321, _340, _351, _352) = _46
+                                with open(eval(_340, _133) if not _121(eval(_340, _133)) else eval(_340, _133)[int(True):][:-(ord('b') - ord('a'))], encoding=chr(117) + chr(116) + chr(102) + chr(45) + chr(56)) as _141:
+                                    _355 = 1 == 1
+                                    _356 = 1 == 0
+                                    if _356:
+                                        pass
+                                    else:
+                                        for _218 in _141:
+                                            _133[_351] = _218
+                                            eval(_352, _133)
+                                return _64(None)
+                            else:
+                                _579 = 1 == 1
+                                _580 = 1 == 0
+                                if _580:
+                                    pass
+                                elif _46[ord('a') - ord('a')] == chr(34892) + chr(35835) + chr(36864):
+                                    _571 = 1 == 1
+                                    _572 = 1 == 0
+                                    if _571:
+                                        (_321, _340, _351, _352, _357) = _46
+                                        with open(eval(_340, _133) if not _121(eval(_340, _133)) else eval(_340, _133)[int(True):][:-(ord('b') - ord('a'))], encoding=base64.b64decode('dXRmLTg=').decode('utf-8')) as _141:
+                                            for _218 in _141:
+                                                _360 = 1 == 1
+                                                _361 = 1 == 0
+                                                if _361:
+                                                    pass
+                                                else:
+                                                    _133[_351] = _218
+                                                    if eval(_357, _133):
+                                                        break
+                                                    eval(_352, _133)
+                                        return _64(None)
+                                    else:
+                                        pass
+                                else:
+                                    _575 = 1 == 1
+                                    _576 = 1 == 0
+                                    if _576:
+                                        pass
+                                    elif _46[len([])] == chr(21152) + chr(19968):
+                                        (_321, _165) = _46
+                                        _133._164(_165)[_165] = _133._164(_165)[_165] + (ord('b') - ord('a'))
+                                        return _64(None)
+                                    else:
+                                        _567 = 1 == 1
+                                        _568 = 1 == 0
+                                        if _568:
+                                            pass
+                                        elif _46[len([])] == chr(33258) + chr(21152):
+                                            (_321, _165, _362) = _46
+                                            _133._164(_165)[_165] = _133._164(_165)[_165] + eval(_362, _133)
+                                            return _64(None)
+                                        elif _46[len([])] == chr(33258) + chr(20056):
+                                            (_321, _165, _362) = _46
+                                            _133._164(_165)[_165] = _133._164(_165)[_165] * eval(_362, _133)
+                                            return _64(None)
+                                        else:
+                                            _563 = 1 == 1
+                                            _564 = 1 == 0
+                                            if _563:
+                                                if _46[ord('a') - ord('a')] == chr(32452) + chr(21152):
+                                                    (_321, _165, _362) = _46
+                                                    _217 = _133._164(_165)[_165]
+                                                    if _121(_217):
+                                                        _133._164(_165)[_165] = _217[:-(ord('b') - ord('a'))] + eval(_362, _133)[ord('b') - ord('a'):]
+                                                    else:
+                                                        _133._164(_165)[_165] = _217 + [eval(_362, _133)]
+                                                    return _64(_217 + [eval(_362, _133)])
+                                                elif _46[ord('a') - ord('a')] == chr(32452) + chr(21024):
+                                                    (_321, _165, _362) = _46
+                                                    _133._164(_165)[_165].remove(eval(_362, _133))
+                                                    return _64(_133._164(_165)[_165])
+                                                elif _46[len([])] == chr(31526) + chr(20043):
+                                                    (_321, _248) = _46
+                                                    _363 = str(eval(_248, _133))
+                                                    if _121(_363):
+                                                        return _64(_363)
+                                                    return _64(chr(8220) + _363 + chr(8221))
+                                                elif _46[ord('a') - ord('a')] == chr(25968):
+                                                    (_321, _248) = _46
+                                                    return _64(_108(_248[int(True):][:-(ord('b') - ord('a'))]))
+                                                elif _46[ord('a') - ord('a')] == chr(31995) + chr(32479) + chr(21629) + chr(20196):
+                                                    (_321, _248) = _46
+                                                    return base64.b64decode('5pqC5pyq5byA5ZCv6K+l5ZG95Luk').decode('utf-8')
+                                                    _363 = eval(_248, _133)
+                                                    _363 = _363 if not _121(_363) else _363[ord('b') - ord('a'):][:-int(True)]
+                                                    _363 = _2.popen(_363).readlines()
+                                                    if len(_363) == len([]):
+                                                        return base64.b64decode('ZG9uZQ==').decode('utf-8')
+                                                    return _363[len([])].strip(chr(10)) if len(_363) == int(True) else [_84.strip(chr(10)) for _84 in _363]
+                                                elif _46[ord('a') - ord('a')] == chr(25968) + chr(20043):
+                                                    (_321, _248) = _46
+                                                    _363 = eval(_248, _133)
+                                                    return _64(float(_363) if not _121(_363) else float(_363[int(True):][:-(ord('b') - ord('a'))]))
+                                                elif _46[ord('a') - ord('a')] == chr(25163) + chr(21160) + chr(36755) + chr(20837):
+                                                    (_321, _248) = _46
+                                                    return _64(eval(_108(input(eval(_248, _133))), _133))
+                                                elif _46[ord('a') - ord('a')] == base64.b64decode('5aSa6KGM6L6T5YWl').decode('utf-8'):
+                                                    _559 = 1 == 1
+                                                    _560 = 1 == 0
+                                                    if _559:
+                                                        (_321, _248) = _46
+                                                        print(eval(_248, _133) + (chr(40) + chr(31896) + chr(36148) + chr(21518) + chr(19981) + chr(35201) + chr(22238) + chr(36710) + chr(65292) + chr(25353) + chr(67) + chr(116) + chr(114) + chr(108) + chr(43) + chr(68) + chr(47) + chr(67) + chr(116) + chr(114) + chr(108) + chr(43) + chr(90) + chr(32467) + chr(26463) + chr(41)))
+                                                        _364 = _6.stdin.readlines()
+                                                        return _64(''.join(_364))
+                                                    else:
+                                                        pass
+                                                elif _46[ord('a') - ord('a')] == chr(23548) + chr(20837):
+                                                    (_321, _248) = _46
+                                                    _6.path.append(chr(46) + chr(47))
+                                                    _6.path.append(chr(46) + chr(47) if not [_84 + base64.b64decode('L3NpdGUtcGFja2FnZXM=').decode('utf-8') for _84 in _6.path if chr(108) + chr(105) + chr(98) + chr(47) + chr(112) + chr(121) + chr(116) + chr(104) + chr(111) + chr(110) + chr(51) + chr(46) in _84] else [_84 + base64.b64decode('L3NpdGUtcGFja2FnZXM=').decode('utf-8') for _84 in _6.path if base64.b64decode('bGliL3B5dGhvbjMu').decode('utf-8') in _84][len([])])
+                                                    _365 = __import__(eval(_248, _133)) if not _121(eval(_248, _133)) else __import__(eval(_248, _133)[int(True):][:-int(True)])
+                                                    _366 = [_365.函子, _365.函丑, _365.函寅, _365.函卯, _365.函辰, _365.函巳, _365.函午, _365.函未, _365.函申, _365.函酉, _365.函戌, _365.函亥, _365.函括]
+                                                    for _48 in _366:
+                                                        _133.update(_48)
+                                                    for _84 in range(13):
+                                                        _44[_84] = _44[_84] + list(_366[_84].keys())
+                                                    return _64(None)
+                                                elif _46[ord('a') - ord('a')] == chr(27714) + chr(20540):
+                                                    (_321, _248) = _46
+                                                    return _64(eval(_248, _133))
+                                                elif _46[len([])] == chr(25171) + chr(21360):
+                                                    _248 = _46[ord('b') - ord('a'):]
+                                                    _83 = [eval(_84, _133) for _84 in _248]
+                                                    print(*_83)
+                                                    return _64(*_83)
+                                                elif _46[len([])] == chr(24403):
+                                                    (_321, _352, _357) = _46
+                                                    while eval(_352, _133):
+                                                        eval(_357, _133)
+                                                else:
+                                                    _555 = 1 == 1
+                                                    _556 = 1 == 0
+                                                    if _555:
+                                                        if _46[ord('a') - ord('a')] == chr(30452) + chr(21040):
+                                                            (_321, _352, _357, _367) = _46
+                                                            eval(_357, _133)
+                                                            while not eval(_352, _133):
+                                                                eval(_357, _133)
+                                                            return _64(eval(_367, _133))
+                                                        else:
+                                                            _551 = 1 == 1
+                                                            _552 = 1 == 0
+                                                            if _552:
+                                                                pass
+                                                            elif _46[len([])] == chr(30452) + chr(21040) + chr(36339):
+                                                                (_321, _352, _357, _367, _368) = _46
+                                                                while not eval(_352, _133):
+                                                                    eval(_357, _133)
+                                                                    if eval(_367, _133):
+                                                                        continue
+                                                                    eval(_368, _133)
+                                                            elif _46[len([])] == chr(24490):
+                                                                _547 = 1 == 1
+                                                                _548 = 1 == 0
+                                                                if _547:
+                                                                    (_321, _369, _165, _352) = _46
+                                                                    if len(eval(_369, _133)) == ord('a') - ord('a'):
+                                                                        return _64(None)
+                                                                    for _84 in eval(_369, _133):
+                                                                        _372 = 1 == 1
+                                                                        _373 = 1 == 0
+                                                                        if _372:
+                                                                            _133[_165] = _84
+                                                                            eval(_352, _133)
+                                                                        else:
+                                                                            pass
+                                                                    return _64(None)
+                                                                else:
+                                                                    pass
+                                                            elif _46[len([])] == chr(35797):
+                                                                (_321, _352, _165, _357) = _46
+                                                                try:
+                                                                    _376 = 1 == 1
+                                                                    _377 = 1 == 0
+                                                                    if _376:
+                                                                        return eval(_352, _133)
+                                                                    else:
+                                                                        pass
+                                                                except Exception as _221:
+                                                                    _133[_165] = _221
+                                                                    return eval(_357, _133)
+                                                                return _64(None)
+                                                            elif _46[len([])] == chr(26032) + chr(32447) + chr(31243):
+                                                                _543 = 1 == 1
+                                                                _544 = 1 == 0
+                                                                if _543:
+                                                                    (_321, _352) = _46
+                                                                    _378 = _9.Thread(target=eval, args=(_352, _133))
+                                                                    _378.start()
+                                                                    return _64(_378)
+                                                                else:
+                                                                    pass
+                                                            elif _46[ord('a') - ord('a')] == chr(31561) + chr(32447) + chr(31243):
+                                                                (_321, _378) = _46
+                                                                return _64(eval(_378, _133).join())
+                                                            else:
+                                                                _539 = 1 == 1
+                                                                _540 = 1 == 0
+                                                                if _539:
+                                                                    if _46[len([])] == chr(32447) + chr(31243) + chr(38145):
+                                                                        (_321, _352) = _46
+                                                                        with _10:
+                                                                            eval(_352, _133)
+                                                                        return _64(None)
+                                                                    else:
+                                                                        _535 = 1 == 1
+                                                                        _536 = 1 == 0
+                                                                        if _536:
+                                                                            pass
+                                                                        elif _46[len([])] == chr(22810) + chr(32447) + chr(31243):
+                                                                            (_321, _369, _165, _352, _379) = _46
+                                                                            _380 = []
+                                                                            with _381._380.ThreadPoolExecutor(max_workers=_379) as _382:
+                                                                                _389 = 1 == 1
+                                                                                _390 = 1 == 0
+                                                                                if _390:
+                                                                                    pass
+                                                                                else:
+                                                                                    for _84 in eval(_369, _133):
+                                                                                        _385 = 1 == 1
+                                                                                        _386 = 1 == 0
+                                                                                        if _386:
+                                                                                            pass
+                                                                                        else:
+                                                                                            _133[_165] = _84
+                                                                                            _380.append(_382.submit(eval, _352, _133))
+                                                                                    _381._380.wait(_380)
+                                                                            return _64(None)
+                                                                        elif _46[len([])] == chr(27966) + chr(36816):
+                                                                            (_321, _352) = _46
+                                                                            return base64.b64decode('5pqC5pyq5byA5ZCv6K+l5ZG95Luk').decode('utf-8')
+                                                                            return _64(exec(eval(_352, _133) if not _121(eval(_352, _133)) else eval(_352, _133)[ord('b') - ord('a'):][:-(ord('b') - ord('a'))]))
+                                                                        elif _46[ord('a') - ord('a')] == chr(29992) + chr(26102):
+                                                                            (_321, _352) = _46
+                                                                            _391 = _14.time()
+                                                                            eval(_352, _133)
+                                                                            _392 = _14.time()
+                                                                            _393 = _392 - _391
+                                                                            print(f'代码运行时间为：{_393}秒')
+                                                                            return _64(_393)
+                                                                        else:
+                                                                            _531 = 1 == 1
+                                                                            _532 = 1 == 0
+                                                                            if _531:
+                                                                                if _46[ord('a') - ord('a')] == chr(32452) + chr(24490):
+                                                                                    (_321, _369, _165, _352) = _46
+                                                                                    _81 = []
+                                                                                    if len(eval(_369, _133)) == ord('a') - ord('a'):
+                                                                                        return _64(_81)
+                                                                                    for _84 in eval(_369, _133):
+                                                                                        _133[_165] = _84
+                                                                                        _81.append(eval(_352, _133))
+                                                                                    return _64(_81)
+                                                                                elif _46[ord('a') - ord('a')] == chr(24490) + chr(36864):
+                                                                                    _527 = 1 == 1
+                                                                                    _528 = 1 == 0
+                                                                                    if _528:
+                                                                                        pass
+                                                                                    else:
+                                                                                        (_321, _369, _165, _352, _357) = _46
+                                                                                        if len(eval(_369, _133)) == len([]):
+                                                                                            return _64(None)
+                                                                                        for _84 in eval(_369, _133):
+                                                                                            _133[_165] = _84
+                                                                                            if eval(_357, _133):
+                                                                                                break
+                                                                                            eval(_352, _133)
+                                                                                        return _64(None)
+                                                                                elif _46[len([])] == chr(32452) + chr(24490) + chr(36339):
+                                                                                    _523 = 1 == 1
+                                                                                    _524 = 1 == 0
+                                                                                    if _524:
+                                                                                        pass
+                                                                                    else:
+                                                                                        (_321, _369, _165, _352, _357) = _46
+                                                                                        _81 = []
+                                                                                        if len(eval(_369, _133)) == ord('a') - ord('a'):
+                                                                                            return _64(_81)
+                                                                                        for _84 in eval(_369, _133):
+                                                                                            _133[_165] = _84
+                                                                                            if not eval(_357, _133):
+                                                                                                _396 = 1 == 1
+                                                                                                _397 = 1 == 0
+                                                                                                if _396:
+                                                                                                    _81.append(eval(_352, _133))
+                                                                                                else:
+                                                                                                    pass
+                                                                                        return _64(_81)
+                                                                                elif _46[len([])] == chr(21040) + chr(21040):
+                                                                                    (_321, _352, _357, _367) = _46
+                                                                                    eval(_357, _133)
+                                                                                    if eval(_352, _133):
+                                                                                        _400 = 1 == 1
+                                                                                        _401 = 1 == 0
+                                                                                        if _401:
+                                                                                            pass
+                                                                                        else:
+                                                                                            return _64(eval(_367))
+                                                                                    else:
+                                                                                        return _64(eval(_357, _133, lambda _46: eval(_352, _133)))
+                                                                                else:
+                                                                                    _519 = 1 == 1
+                                                                                    _520 = 1 == 0
+                                                                                    if _520:
+                                                                                        pass
+                                                                                    elif _46[ord('a') - ord('a')] == chr(33509):
+                                                                                        (_321, _402, _403, _404) = _46
+                                                                                        _248 = _403 if eval(_402, _133) else _404
+                                                                                        return _64(eval(_248, _133))
+                                                                                    elif _46[len([])] == chr(20196):
+                                                                                        _511 = 1 == 1
+                                                                                        _512 = 1 == 0
+                                                                                        if _511:
+                                                                                            (_321, _165, _248) = _46
+                                                                                            _133[_165] = eval(_248, _133)
+                                                                                            return _64(None)
+                                                                                        else:
+                                                                                            pass
+                                                                                    else:
+                                                                                        _515 = 1 == 1
+                                                                                        _516 = 1 == 0
+                                                                                        if _515:
+                                                                                            if _46[len([])] == chr(36890) + chr(20196):
+                                                                                                (_321, _165, _248) = _46
+                                                                                                _405 = _133
+                                                                                                _406 = _133._148
+                                                                                                while _406 != None:
+                                                                                                    _409 = 1 == 1
+                                                                                                    _410 = 1 == 0
+                                                                                                    if _410:
+                                                                                                        pass
+                                                                                                    else:
+                                                                                                        _405 = _406
+                                                                                                        _406 = _406._148
+                                                                                                _405[_165] = eval(_248, _133)
+                                                                                                return _64(None)
+                                                                                            else:
+                                                                                                _507 = 1 == 1
+                                                                                                _508 = 1 == 0
+                                                                                                if _507:
+                                                                                                    if _46[len([])] == chr(35774):
+                                                                                                        (_321, _165, _248) = _46
+                                                                                                        _217 = eval(_248, _133)
+                                                                                                        if isinstance(_165, _25) and chr(35) in _165:
+                                                                                                            _286 = _165.split(chr(35))
+                                                                                                            _140 = eval(_25(_286[len([])]), _133)
+                                                                                                            for _173 in _286[int(True):-(ord('b') - ord('a'))]:
+                                                                                                                _173 = eval(_173, _133) if not eval(_173, _133).startswith(chr(31526)) else eval(_173, _133)[ord('b') - ord('a'):]
+                                                                                                                _140 = _172(_140, _173, [], _133)
+                                                                                                            _173 = _286[-(ord('b') - ord('a'))]
+                                                                                                            _173 = eval(_173, _133) if not eval(_173, _133).startswith(chr(31526)) else eval(_173, _133)[int(True):]
+                                                                                                            return _197(_140, _173, _217)
+                                                                                                        elif isinstance(_165, _25):
+                                                                                                            _413 = 1 == 1
+                                                                                                            _414 = 1 == 0
+                                                                                                            if _413:
+                                                                                                                _133._164(_165)[_165] = _217
+                                                                                                                return _217
+                                                                                                            else:
+                                                                                                                pass
+                                                                                                        else:
+                                                                                                            _417 = 1 == 1
+                                                                                                            _418 = 1 == 0
+                                                                                                            if _417:
+                                                                                                                raise SyntaxError(f"无法定义'{_165}' 不是一个符号")
+                                                                                                            else:
+                                                                                                                pass
+                                                                                                        (_321, _165, _248) = _46
+                                                                                                        _419 = eval(_165, _133) if not _121(eval(_165, _133)) else eval(_165, _133)[int(True):][:-int(True)]
+                                                                                                        _133[_419] = eval(_248, _133)
+                                                                                                        return _64(None)
+                                                                                                    elif _46[ord('a') - ord('a')] == chr(36890) + chr(35774):
+                                                                                                        (_321, _165, _248) = _46
+                                                                                                        _405 = _133
+                                                                                                        _406 = _133._148
+                                                                                                        while _406 != None:
+                                                                                                            _405 = _406
+                                                                                                            _406 = _406._148
+                                                                                                        _420 = eval(_165, _133)
+                                                                                                        _419 = _420 if not _121(_420) else _420[int(True):][:-int(True)]
+                                                                                                        _405[_419] = eval(_248, _133)
+                                                                                                        return _64(None)
+                                                                                                    elif _46[ord('a') - ord('a')] == chr(23450) + chr(20041) + chr(31867):
+                                                                                                        (_321, _67, _421, _422) = _46
+                                                                                                        _68 = eval(_421, _133) if _421 and _421 != chr(40) + chr(41) else None
+                                                                                                        _69 = {}
+                                                                                                        for _423 in _422[ord('b') - ord('a'):] if _422[ord('a') - ord('a')] == chr(12304) or _422[ord('a') - ord('a')] == chr(24320) + chr(22987) else _422:
+                                                                                                            (_213, (_424, *_425), _426) = _423
+                                                                                                            _69[_424] = _266(_425, _426, _133)
+                                                                                                        _133[_67] = _65(_67, _68, _69)
+                                                                                                        return _133[_67]
+                                                                                                    else:
+                                                                                                        _503 = 1 == 1
+                                                                                                        _504 = 1 == 0
+                                                                                                        if _503:
+                                                                                                            if _46[len([])] == chr(22312):
+                                                                                                                (_321, _165, _219) = _46
+                                                                                                                _81 = eval(_165, _133) if not _121(eval(_165, _133)) else eval(_165, _133)[int(True):][:-int(True)]
+                                                                                                                _427 = eval(_219, _133) if not _121(eval(_219, _133)) else eval(_219, _133)[ord('b') - ord('a'):][:-(ord('b') - ord('a'))]
+                                                                                                                return int(True) if _81 in _427 else ord('a') - ord('a')
+                                                                                                            elif _46[ord('a') - ord('a')] == chr(20989):
+                                                                                                                (_321, _51, _50) = _46
+                                                                                                                return _64(_266(_51, _50, _133))
+                                                                                                            elif _46[len([])] == chr(21517) + chr(20989):
+                                                                                                                (_321, (_428, *_51), _50) = _46
+                                                                                                                _133[_428] = _266(_51, _50, _133)
+                                                                                                                return _64(None)
+                                                                                                            else:
+                                                                                                                _499 = 1 == 1
+                                                                                                                _500 = 1 == 0
+                                                                                                                if _499:
+                                                                                                                    if _46[ord('a') - ord('a')] == chr(29255):
+                                                                                                                        _495 = 1 == 1
+                                                                                                                        _496 = 1 == 0
+                                                                                                                        if _496:
+                                                                                                                            pass
+                                                                                                                        else:
+                                                                                                                            (_321, _50) = _46
+                                                                                                                            return _64(_271(_50, _133))
+                                                                                                                    elif _46[len([])] == chr(36229) + chr(20989):
+                                                                                                                        _491 = 1 == 1
+                                                                                                                        _492 = 1 == 0
+                                                                                                                        if _491:
+                                                                                                                            (_321, _51, _50) = _46
+                                                                                                                            return _64(_273(_51, _50, _133))
+                                                                                                                        else:
+                                                                                                                            pass
+                                                                                                                    else:
+                                                                                                                        try:
+                                                                                                                            _473 = 1 == 1
+                                                                                                                            _474 = 1 == 0
+                                                                                                                            if _473:
+                                                                                                                                _272 = eval(_46[ord('a') - ord('a')], _133)
+                                                                                                                                if isinstance(_272, _65):
+                                                                                                                                    _441 = 1 == 1
+                                                                                                                                    _442 = 1 == 0
+                                                                                                                                    if _442:
+                                                                                                                                        pass
+                                                                                                                                    else:
+                                                                                                                                        _429 = [eval(_248, _133) for _248 in _46[int(True):]]
+                                                                                                                                        _140 = _70(_272)
+                                                                                                                                        _430 = _166(_272, chr(21021) + chr(22987) + chr(21270))
+                                                                                                                                        if _430:
+                                                                                                                                            _433 = 1 == 1
+                                                                                                                                            _434 = 1 == 0
+                                                                                                                                            if _433:
+                                                                                                                                                _430(_140, *_429)
+                                                                                                                                            else:
+                                                                                                                                                pass
+                                                                                                                                        else:
+                                                                                                                                            _437 = 1 == 1
+                                                                                                                                            _438 = 1 == 0
+                                                                                                                                            if _438:
+                                                                                                                                                pass
+                                                                                                                                            elif _429:
+                                                                                                                                                raise TypeError(f"'{_272._67}' 没有对应的初始化方法")
+                                                                                                                                        return _140
+                                                                                                                                if len(_46) == ord('b') - ord('a') and isinstance(_272, _25):
+                                                                                                                                    _445 = 1 == 1
+                                                                                                                                    _446 = 1 == 0
+                                                                                                                                    if _445:
+                                                                                                                                        return _64(_272)
+                                                                                                                                    else:
+                                                                                                                                        pass
+                                                                                                                                if isinstance(_272, _27):
+                                                                                                                                    return _64(_272)
+                                                                                                                                if isinstance(_272, _273):
+                                                                                                                                    if isinstance(_46[ord('b') - ord('a'):][ord('a') - ord('a')], _271):
+                                                                                                                                        _449 = 1 == 1
+                                                                                                                                        _450 = 1 == 0
+                                                                                                                                        if _449:
+                                                                                                                                            return _64(_272(*_46[int(True):]))
+                                                                                                                                        else:
+                                                                                                                                            pass
+                                                                                                                                    _52 = [eval(_271(_46[int(True):][_84], _133), _133) for _84 in range(len(_272._51))]
+                                                                                                                                    return _64(_272(*_52))
+                                                                                                                                if isinstance(_272, _275):
+                                                                                                                                    _276 = _46[int(True):][:len(set(_272._51).intersection(_28))]
+                                                                                                                                    _277 = _46[int(True):][len(set(_272._51).intersection(_28)):]
+                                                                                                                                    _276 = [eval(_248, _133) for _248 in _276]
+                                                                                                                                    if not isinstance(_277[ord('a') - ord('a')], _271):
+                                                                                                                                        _453 = 1 == 1
+                                                                                                                                        _454 = 1 == 0
+                                                                                                                                        if _454:
+                                                                                                                                            pass
+                                                                                                                                        else:
+                                                                                                                                            _277 = [eval(_271(_248, _133), _133) for _248 in _277]
+                                                                                                                                    _52 = _276 + _277
+                                                                                                                                    return _64(_272(*_52))
+                                                                                                                                if isinstance(_272, _266) or callable(_272):
+                                                                                                                                    _465 = 1 == 1
+                                                                                                                                    _466 = 1 == 0
+                                                                                                                                    if _465:
+                                                                                                                                        if len(_46) == int(True):
+                                                                                                                                            if isinstance(_272, _266) and len(_272._51) == len([]) or (hasattr(_272, chr(95) + chr(95) + chr(110) + chr(97) + chr(109) + chr(101) + chr(95) + chr(95)) and _272.__name__ == chr(114) + chr(117) + chr(110) + chr(110) + chr(111) + chr(119)):
+                                                                                                                                                return _64(_272())
+                                                                                                                                            else:
+                                                                                                                                                _461 = 1 == 1
+                                                                                                                                                _462 = 1 == 0
+                                                                                                                                                if _461:
+                                                                                                                                                    if isinstance(_272, _271):
+                                                                                                                                                        return _64(_272())
+                                                                                                                                                    elif isinstance(_272, _12.FunctionType) and len(_13.signature(_272).parameters) == len([]):
+                                                                                                                                                        _457 = 1 == 1
+                                                                                                                                                        _458 = 1 == 0
+                                                                                                                                                        if _458:
+                                                                                                                                                            pass
+                                                                                                                                                        else:
+                                                                                                                                                            return _64(_272())
+                                                                                                                                                    else:
+                                                                                                                                                        return _64(_272)
+                                                                                                                                                else:
+                                                                                                                                                    pass
+                                                                                                                                        _52 = [eval(_248, _133) for _248 in _46[int(True):]]
+                                                                                                                                        return _64(_272(*_52))
+                                                                                                                                    else:
+                                                                                                                                        pass
+                                                                                                                                if isinstance(_272, _25):
+                                                                                                                                    raise TypeError
+                                                                                                                                _52 = [eval(_248, _133) for _248 in _46[int(True):]]
+                                                                                                                                if _272 == None and len(_52) != len([]):
+                                                                                                                                    return _64(_52[-int(True)])
+                                                                                                                                else:
+                                                                                                                                    _469 = 1 == 1
+                                                                                                                                    _470 = 1 == 0
+                                                                                                                                    if _470:
+                                                                                                                                        pass
+                                                                                                                                    elif len(_46) == ord('b') - ord('a'):
+                                                                                                                                        return _64(_272)
+                                                                                                                                    else:
+                                                                                                                                        print(base64.b64decode('6ZSZ6K+v77yaZXZhbOmBh+WIsOayoemihOingeeahOWPguaVsO+8mg==').decode('utf-8'), _46)
+                                                                                                                            else:
+                                                                                                                                pass
+                                                                                                                        except TypeError as _221:
+                                                                                                                            if _45(_46[ord('a') - ord('a')]) or callable(_46[ord('a') - ord('a')]) or _46[len([])] == chr(12304) or (not isinstance(_46[ord('a') - ord('a')], _25)):
+                                                                                                                                print(chr(38169) + chr(35823) + chr(65306) + chr(22810) + chr(21477) + chr(36816) + chr(34892) + chr(20986) + chr(38169) + chr(65288) + chr(35831) + chr(29992) + chr(12304) + chr(12305) + chr(21253) + chr(35065) + chr(22810) + chr(21477) + chr(36816) + chr(34892) + chr(21629) + chr(20196) + chr(65289) + chr(65306), _221)
+                                                                                                                                return _64(base64.b64decode('6ZSZ6K+v77ya5aSa5Y+l6L+Q6KGM5Ye66ZSZ77yI6K+355So44CQ44CR5YyF6KO55aSa5Y+l6L+Q6KGM5ZG95Luk77yJ77ya').decode('utf-8') + str(_221))
+                                                                                                                            _475 = [_84 for _84 in _28 if _84 in str(_46)]
+                                                                                                                            _476 = [_84 for _84 in _29 if _84 in str(_46)]
+                                                                                                                            if len(_46) == 2:
+                                                                                                                                (_321, _50) = _46
+                                                                                                                            else:
+                                                                                                                                _50 = _46[ord('b') - ord('a'):]
+                                                                                                                            if len(_475) != len([]) and len(_476) != ord('a') - ord('a'):
+                                                                                                                                _133[_46[ord('a') - ord('a')]] = _275(_475 + _476, _50, _133)
+                                                                                                                                return _64(None)
+                                                                                                                            else:
+                                                                                                                                _487 = 1 == 1
+                                                                                                                                _488 = 1 == 0
+                                                                                                                                if _487:
+                                                                                                                                    if len(_475) != ord('a') - ord('a'):
+                                                                                                                                        _133[_46[ord('a') - ord('a')]] = _266(_475, _50, _133)
+                                                                                                                                        return _64(None)
+                                                                                                                                    else:
+                                                                                                                                        _483 = 1 == 1
+                                                                                                                                        _484 = 1 == 0
+                                                                                                                                        if _484:
+                                                                                                                                            pass
+                                                                                                                                        elif len(_476) != len([]):
+                                                                                                                                            _133[_46[ord('a') - ord('a')]] = _273(_476, _50, _133)
+                                                                                                                                            return _64(None)
+                                                                                                                                        else:
+                                                                                                                                            _479 = 1 == 1
+                                                                                                                                            _480 = 1 == 0
+                                                                                                                                            if _480:
+                                                                                                                                                pass
+                                                                                                                                            else:
+                                                                                                                                                print(base64.b64decode('6ZSZ6K+v77ya5aSa5Y+l6L+Q6KGM5Ye66ZSZ5oiW5Ye95pWw5a6a5LmJ6ZSZ6K+v77yI6K+355So44CQ44CR5YyF6KO55aSa5Y+l6L+Q6KGM5ZG95Luk77yJ77ya').decode('utf-8'), _221)
+                                                                                                                                                return _64(base64.b64decode('6ZSZ6K+v77ya5aSa5Y+l6L+Q6KGM5Ye66ZSZ5oiW5Ye95pWw5a6a5LmJ6ZSZ6K+v77yI6K+355So44CQ44CR5YyF6KO55aSa5Y+l6L+Q6KGM5ZG95Luk77yJ77ya').decode('utf-8') + str(_221))
+                                                                                                                                else:
+                                                                                                                                    pass
+                                                                                                                else:
+                                                                                                                    pass
+                                                                                                        else:
+                                                                                                            pass
+                                                                                                else:
+                                                                                                    pass
+                                                                                        else:
+                                                                                            pass
+                                                                            else:
+                                                                                pass
+                                                                else:
+                                                                    pass
+                                                    else:
+                                                        pass
+                                            else:
+                                                pass
+                        else:
+                            pass
+            else:
+                pass
+def _220(_73):
+    _80 = _73
+    if chr(8220) in _80 and chr(8221) in _80:
+        _620 = 1 == 1
+        _621 = 1 == 0
+        if _621:
+            pass
+        else:
+            _81 = ''
+            _82 = ord('a') - ord('a')
+            _83 = []
+            _601 = ord('a') - ord('a')
+            for _84 in range(len(_80)):
+                _616 = 1 == 1
+                _617 = 1 == 0
+                if _616:
+                    if _80[-(_84 + (ord('b') - ord('a')))] == chr(8221) and _80[-(_84 + (ord('b') - ord('a'))) - (ord('b') - ord('a'))] != chr(92) and (_81 == ''):
+                        _81 = _80[-(_84 + int(True))] + _81
+                        _82 = ord('b') - ord('a')
+                    else:
+                        _612 = 1 == 1
+                        _613 = 1 == 0
+                        if _613:
+                            pass
+                        elif _80[-(_84 + (ord('b') - ord('a')))] == chr(8221) and _80[-(_84 + int(True)) - (ord('b') - ord('a'))] != chr(92) and (_81 != '') and (not _82):
+                            if chr(37) in _81:
+                                _604 = 1 == 1
+                                _605 = 1 == 0
+                                if _605:
+                                    pass
+                                else:
+                                    _81 = _81.split(chr(37))[ord('a') - ord('a')]
+                                    _83 = []
+                            _83 = _81.replace(chr(92) + chr(8220), chr(8220)).replace(chr(92) + chr(8221), chr(8221)).replace(chr(65288), chr(32) + chr(65288) + chr(32)).replace(chr(65289), chr(32) + chr(65289) + chr(32)).replace(chr(12304), chr(32) + chr(12304) + chr(32)).replace(chr(12305), chr(32) + chr(12305) + chr(32)).split() + _83
+                            _81 = chr(8221)
+                            _82 = ord('b') - ord('a')
+                        elif _80[-(_84 + int(True))] == chr(8221) and _80[-(_84 + (ord('b') - ord('a'))) - (ord('b') - ord('a'))] != chr(92) and (_81 != '') and _82:
+                            _81 = _80[-(_84 + int(True))] + _81
+                            _601 = _601 + (ord('b') - ord('a'))
+                        else:
+                            _608 = 1 == 1
+                            _609 = 1 == 0
+                            if _609:
+                                pass
+                            elif _80[-(_84 + int(True))] == chr(8220) and (_84 == len(_80) - int(True) or _80[-(_84 + (ord('b') - ord('a'))) - int(True)] != chr(92)) and (_81 != '') and _82:
+                                if _601 > ord('a') - ord('a'):
+                                    _81 = _80[-(_84 + int(True))] + _81
+                                    _601 = _601 - (ord('b') - ord('a'))
+                                else:
+                                    _81 = _80[-(_84 + int(True))] + _81
+                                    _83 = [_81.replace(chr(92) + chr(8220), chr(8220)).replace(chr(92) + chr(8221), chr(8221))] + _83
+                                    _81 = ''
+                                    _82 = ord('a') - ord('a')
+                            else:
+                                _81 = _80[-(_84 + (ord('b') - ord('a')))] + _81
+                else:
+                    pass
+            if _82:
+                print(chr(38169) + chr(35823) + chr(65306) + chr(8220) + chr(8221) + chr(24341) + chr(21495) + chr(19981) + chr(21305) + chr(37197) + chr(65292) + chr(35831) + chr(29992) + chr(92) + chr(8220) + chr(92) + chr(8221) + chr(36716) + chr(20041))
+            if _81 != '':
+                if chr(37) in _81:
+                    _81 = _81.split(chr(37))[ord('a') - ord('a')]
+                    _83 = []
+                _83 = _81.replace(chr(92) + chr(8220), chr(8220)).replace(chr(92) + chr(8221), chr(8221)).replace(chr(65288), chr(32) + chr(65288) + chr(32)).replace(chr(65289), chr(32) + chr(65289) + chr(32)).replace(chr(12304), chr(32) + chr(12304) + chr(32)).replace(chr(12305), chr(32) + chr(12305) + chr(32)).split() + _83
+            _101 = _83
+    else:
+        if chr(37) in _73:
+            _73 = _73.split(chr(37))[ord('a') - ord('a')]
+        _101 = _73.replace(chr(92) + chr(8220), chr(8220)).replace(chr(92) + chr(8221), chr(8221)).replace(chr(65288), chr(32) + chr(65288) + chr(32)).replace(chr(65289), chr(32) + chr(65289) + chr(32)).replace(chr(12304), chr(32) + chr(12304) + chr(32)).replace(chr(12305), chr(32) + chr(12305) + chr(32)).split()
+    _622 = _101
+    for _84 in range(len(_101)):
+        if len(_5) == 3 and _5[2] == chr(48):
+            _625 = 1 == 1
+            _626 = 1 == 0
+            if _625:
+                print(_101[-(_84 + int(True))])
+                print(_622)
+            else:
+                pass
+        _103 = []
+        if (_84 != len([]) and _101[-(_84 + int(True)) + (ord('b') - ord('a'))] == chr(65289) or (_84 != len(_101) - int(True) and _101[-(_84 + (ord('b') - ord('a'))) - int(True)] == chr(65288))) and (_101[-(_84 + int(True))] != chr(65288) and _101[-(_84 + (ord('b') - ord('a')))] != chr(65289)):
+            base64.b64decode('TnVtYmVycyBiZWNvbWUgbnVtYmVyczsgZXZlcnkgb3RoZXIgdG9rZW4gaXMgYSBzeW1ib2wu').decode('utf-8')
+            try:
+                _631 = 1 == 1
+                _632 = 1 == 0
+                if _632:
+                    pass
+                else:
+                    _627 = int(_622[len(_101) - (_84 + int(True))])
+                    _628 = _622[:len(_101) - (_84 + int(True))]
+                    _628.append(_627)
+                    if _622[len(_101) - _84:] != []:
+                        _628 = _628 + _622[len(_101) - _84:]
+                    _622 = _628
+            except ValueError:
+                try:
+                    _633 = float(_622[len(_101) - (_84 + (ord('b') - ord('a')))])
+                    _628 = _622[:len(_101) - (_84 + (ord('b') - ord('a')))]
+                    _628.append(_633)
+                    if _622[len(_101) - _84:] != []:
+                        _636 = 1 == 1
+                        _637 = 1 == 0
+                        if _637:
+                            pass
+                        else:
+                            _628 = _628 + _622[len(_101) - _84:]
+                    _622 = _628
+                except ValueError:
+                    pass
+        elif _45(_101[-(_84 + (ord('b') - ord('a')))]) and len(_622) != _45(_101[-(_84 + (ord('b') - ord('a')))]) + (ord('b') - ord('a')):
+            _678 = 1 == 1
+            _679 = 1 == 0
+            if _679:
+                pass
+            else:
+                try:
+                    _645 = 1 == 1
+                    _646 = 1 == 0
+                    if _646:
+                        pass
+                    else:
+                        for _638 in range(_45(_101[-(_84 + int(True))]) + (ord('b') - ord('a'))):
+                            _641 = 1 == 1
+                            _642 = 1 == 0
+                            if _641:
+                                _103.append(_622[len(_101) - (_84 + (ord('b') - ord('a'))) + _638])
+                            else:
+                                pass
+                        _628 = _622[:len(_101) - (_84 + int(True))]
+                        _628.append(_103)
+                        if _622[len(_101) - (_84 - (_45(_101[-(_84 + (ord('b') - ord('a')))]) - (ord('b') - ord('a')))) + int(True):] != []:
+                            _628 = _628 + _622[len(_101) - (_84 - (_45(_101[-(_84 + int(True))]) - (ord('b') - ord('a')))) + int(True):]
+                        _622 = _628
+                except IndexError:
+                    print(base64.b64decode('6ZSZ6K+v77ya5Ye95pWw5omA5o6l5Y+C5pWw5LiN5a+577ya').decode('utf-8') + _101[-(_84 + int(True))] + (chr(25509) + chr(25910)) + str(_45(_101[-(_84 + int(True))])) + base64.b64decode('5Liq5Y+C5pWw44CC5Lyg6YCS55qE5Y+C5pWw5Li677ya').decode('utf-8'), _622[len(_101) - (_84 + int(True)):])
+        elif _101[-(_84 + int(True))] in [chr(65288)]:
+            for _638 in range(len(_622[len(_101) - (_84 + int(True)) + int(True):])):
+                if _622[len(_101) - (_84 - _638)] != _30[_101[-(_84 + int(True))]]:
+                    _103.append(_622[len(_101) - (_84 - _638)])
+                else:
+                    break
+                if _638 == len(_622[len(_101) - (_84 + int(True)) + (ord('b') - ord('a')):]) - int(True) and _622[len(_101) - (_84 - _638)] != _30[_101[-(_84 + int(True))]]:
+                    print(chr(38169) + chr(35823) + chr(65281) + chr(65281) + chr(65281) + chr(25324) + chr(21495) + _101[-(_84 + int(True))] + (chr(19981) + chr(21305) + chr(37197) + chr(65281) + chr(65281) + chr(65281)))
+            _628 = _622[:len(_101) - (_84 + (ord('b') - ord('a')))]
+            _628.append(_103)
+            if _622[len(_101) - (_84 - _638) + (ord('b') - ord('a')):] != []:
+                _628 = _628 + _622[len(_101) - (_84 - _638) + int(True):]
+            _622 = _628
+        elif _101[-(_84 + (ord('b') - ord('a')))] in [chr(12304)]:
+            _103.append(_622[len(_101) - (_84 + (ord('b') - ord('a')))])
+            for _638 in range(len(_622[len(_101) - (_84 + int(True)) + int(True):])):
+                if _622[len(_101) - (_84 - _638)] != _30[_101[-(_84 + (ord('b') - ord('a')))]]:
+                    _103.append(_622[len(_101) - (_84 - _638)])
+                else:
+                    break
+                if _638 == len(_622[len(_101) - (_84 + int(True)) + int(True):]) - int(True) and _622[len(_101) - (_84 - _638)] != _30[_101[-(_84 + (ord('b') - ord('a')))]]:
+                    print(base64.b64decode('6ZSZ6K+v77yB77yB77yB5ous5Y+3').decode('utf-8') + _101[-(_84 + (ord('b') - ord('a')))] + base64.b64decode('5LiN5Yy56YWN77yB77yB77yB').decode('utf-8'))
+            _628 = _622[:len(_101) - (_84 + (ord('b') - ord('a')))]
+            _628.append(_103)
+            if _622[len(_101) - (_84 - _638) + (ord('b') - ord('a')):] != []:
+                _628 = _628 + _622[len(_101) - (_84 - _638) + (ord('b') - ord('a')):]
+            _622 = _628
+        else:
+            _674 = 1 == 1
+            _675 = 1 == 0
+            if _675:
+                pass
+            elif isinstance(_285(_101[-(_84 + (ord('b') - ord('a')))]), _275) or isinstance(_285(_101[-(_84 + (ord('b') - ord('a')))]), _273) or isinstance(_285(_101[-(_84 + (ord('b') - ord('a')))]), _266) or (callable(_285(_101[-(_84 + int(True))])) and _285(_101[-(_84 + int(True))]).__name__ == base64.b64decode('cnVubW9yZQ==').decode('utf-8')) or isinstance(_285(_101[-(_84 + int(True))]), _65):
+                if callable(_285(_101[-(_84 + int(True))])) and hasattr(_285(_101[-(_84 + int(True))]), chr(95) + chr(95) + chr(110) + chr(97) + chr(109) + chr(101) + chr(95) + chr(95)) and (_285(_101[-(_84 + int(True))]).__name__ == chr(114) + chr(117) + chr(110) + chr(109) + chr(111) + chr(114) + chr(101)):
+                    _647 = len(_13.signature(_285(_101[-(_84 + (ord('b') - ord('a')))])).parameters)
+                elif isinstance(_285(_101[-(_84 + (ord('b') - ord('a')))]), _65):
+                    _650 = 1 == 1
+                    _651 = 1 == 0
+                    if _651:
+                        pass
+                    else:
+                        _647 = len(_166(_285(_101[-(_84 + (ord('b') - ord('a')))]), chr(21021) + chr(22987) + chr(21270))._51) - int(True)
+                else:
+                    _654 = 1 == 1
+                    _655 = 1 == 0
+                    if _655:
+                        pass
+                    else:
+                        _647 = len(eval(_101[-(_84 + int(True))])._51)
+                if len(_622) != _647 + int(True):
+                    for _638 in range(_647 + int(True)):
+                        _658 = 1 == 1
+                        _659 = 1 == 0
+                        if _658:
+                            _103.append(_622[len(_101) - (_84 + int(True)) + _638])
+                        else:
+                            pass
+                    _628 = _622[:len(_101) - (_84 + (ord('b') - ord('a')))]
+                    _628.append(_103)
+                    if _622[len(_101) - _84 + _647:] != []:
+                        _628 = _628 + _622[len(_101) - _84 + _647:]
+                    _622 = _628
+            elif _101[-(_84 + (ord('b') - ord('a')))] == _101[len([])] and _84 != len(_101) - int(True):
+                _670 = 1 == 1
+                _671 = 1 == 0
+                if _671:
+                    pass
+                else:
+                    _64 = len(set(_28).intersection(set(_101))) + len(set(_29).intersection(set(_101)))
+                    if _64 != len([]):
+                        for _638 in range(_64 + int(True)):
+                            _103.append(_622[len(_101) - (_84 + int(True)) + _638])
+                        _628 = _622[:len(_101) - (_84 + int(True))]
+                        _628.append(_103)
+                        if _622[len(_101) - _84 + _64:] != []:
+                            _662 = 1 == 1
+                            _663 = 1 == 0
+                            if _662:
+                                _628 = _628 + _622[len(_101) - _84 + _64:]
+                            else:
+                                pass
+                        _622 = _628
+            else:
+                base64.b64decode('TnVtYmVycyBiZWNvbWUgbnVtYmVyczsgZXZlcnkgb3RoZXIgdG9rZW4gaXMgYSBzeW1ib2wu').decode('utf-8')
+                try:
+                    _627 = int(_622[len(_101) - (_84 + int(True))])
+                    _628 = _622[:len(_101) - (_84 + int(True))]
+                    _628.append(_627)
+                    if _622[len(_101) - _84:] != []:
+                        _666 = 1 == 1
+                        _667 = 1 == 0
+                        if _666:
+                            _628 = _628 + _622[len(_101) - _84:]
+                        else:
+                            pass
+                    _622 = _628
+                except ValueError:
+                    try:
+                        _633 = float(_622[len(_101) - (_84 + (ord('b') - ord('a')))])
+                        _628 = _622[:len(_101) - (_84 + int(True))]
+                        _628.append(_633)
+                        if _622[len(_101) - _84:] != []:
+                            _628 = _628 + _622[len(_101) - _84:]
+                        _622 = _628
+                    except ValueError:
+                        pass
+    return _622
+if len(_5) == int(True):
+    _215()
+else:
+    _230 = chr(32).join(_5[ord('b') - ord('a'):])
+    _83 = _137(_230)
